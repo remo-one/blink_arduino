@@ -1,0 +1,17 @@
+//first file created on GitHub
+//this code could be esed by everyone that needs it
+//Pace & Love
+
+int led = 7; //this line indicates where the led has been inserted. It's possible to insert any other pin number
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(led,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(led,HIGH); //this line indicates that the led will be turned on 
+  delay(1500);//the led will remain in this state for 1500 ms
+  digitalWrite(led,LOW);//here the led led will be turned off
+  delay(350);//the led will remain in this state for 350 ms
+}
